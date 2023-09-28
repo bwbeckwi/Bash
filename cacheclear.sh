@@ -1,4 +1,4 @@
 #!/bin/bash
 cd ~
 clear
-sudo sh -c "sync; echo 3 > /proc/sys/vm/drop_caches"
+sudo sh -c "sync"
