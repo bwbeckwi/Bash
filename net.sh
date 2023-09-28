@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ifconfig | grep "inet addr"
+ip a | grep "inet addr" 
